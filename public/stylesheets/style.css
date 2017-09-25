@@ -1,0 +1,127 @@
+body, html {
+  background-color: #080808;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  /*font-size: 40px;*/
+  text-align: center;
+}
+
+.subheader {
+  color: white;
+  text-align: center;
+}
+
+
+.height-100{
+  height: 100%;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background: url('/images/background/rl.png') no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  height: 512px;
+  width: 100%;
+}
+
+.navbar {
+  height: 120px;
+  background: linear-gradient(180deg, rgba(42, 42, 42, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), linear-gradient(90deg, #000000 0%, #282828 25%, #131313 50%, #212121 75%, #000000 100%);
+}
+
+.sub-navbar {
+  height: 70px;
+  background: #1B1B1B;
+}
+
+.sub-navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.sub-navbar-link {
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  line-height: 70px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.active:before {
+  content : "";
+  position: absolute;
+  left    : 25%;
+  bottom  : 0;
+  height  : 1px;
+  width   : 50%;  /* or 100px */
+  border-bottom:2px solid #FFB500;
+}
+
+.sub-navbar-link:hover:before {
+  content : "";
+  position: absolute;
+  left    : 25%;
+  bottom  : 0;
+  height  : 1px;
+  width   : 50%;  /* or 100px */
+  border-bottom:2px solid #FFB500;
+}
+
+.sub-navbar-item {
+  position: relative;
+  margin-bottom: 0;
+  float: left;
+  width: 100%;
+}
+
+img.logo {
+  margin-top: 33px;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
+
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+  float: right;
+}
+
+.navbar-link {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-right: 35px;
+  text-decoration: none;
+  line-height: 120px;
+  color: #ffffff;
+}
+
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+}
+
+.content-box {
+  background: linear-gradient(116.9deg, #080808 0%, #101010 25%, #080808 50%, #101010 75%, #080808 100%), url('/images/pattern/hexa-pattern.png'), #080808;
+  background-blend-mode: difference, normal, normal;
+  background-size: 100% auto, 80px auto;
+  height: 2000px;
+  width: 100%;
+}

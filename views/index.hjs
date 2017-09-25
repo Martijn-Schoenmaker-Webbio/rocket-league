@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/skeleton.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="/"><img class="logo" src="/images/logo/logo.svg" alt=""></a>
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#">Item 1</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">Item 2</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">Item 3</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">Login with Steam</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="container height-100">
+        <div class="row height-100">
+          <div class="twelve columns aligner height-100">
+            <div class="aligner-item">
+              <h1>Most recent match</h1>
+              <p class="subheader">3-0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="sub-navbar">
+      <div class="container">
+        <ul class="sub-navbar-list aligner">
+          <li class="sub-navbar-item aligner-item"><a class="sub-navbar-link active" href="#">Schedule</a></li>
+          <li class="sub-navbar-item aligner-item"><a class="sub-navbar-link" href="#">Results</a></li>
+          <li class="sub-navbar-item aligner-item"><a class="sub-navbar-link" href="#">Players & Teams</a></li>
+          <li class="sub-navbar-item aligner-item"><a class="sub-navbar-link" href="#">Tables</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="content-box">
+
+    </section>
+  </body>
+</html>
