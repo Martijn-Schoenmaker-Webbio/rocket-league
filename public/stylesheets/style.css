@@ -54,6 +54,10 @@ header {
   width: 100%;
 }
 
+.active {
+  color: #FFB500;
+}
+
 .active:before {
   content : "";
   position: absolute;
